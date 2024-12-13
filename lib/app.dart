@@ -11,7 +11,10 @@ class MultiStoreApp extends StatelessWidget {
         const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        fontFamily: 'Brand-Bold',
+      ),
       home: const MainScreen(),
       title: 'Multi Store App',
     );
